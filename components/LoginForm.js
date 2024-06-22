@@ -150,7 +150,9 @@ function LoginForm() {
           </p>
         </div>
       ) : (
-        <p className="text-2xl text-center mt-10 font-semibold">Connecting</p>
+        <p className="h-[1100px] text-2xl text-center mt-10 font-semibold">
+          Connecting...
+        </p>
       )}
     </>
   );
