@@ -103,11 +103,6 @@ function LoginForm() {
                     />
                   </div>
                   <div className="flex flex-col items-center">
-                    {/* <ReCAPTCHA
-                className="mt-[35px]"
-                sitekey={recaptchaKey}
-                onChange={() => setVerified(true)}
-              /> */}
                     <Image
                       src="/images/captures.jpeg"
                       alt="captcha"
